@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = ({ refs }) => {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -35,6 +36,10 @@ const Navbar = ({ refs }) => {
                             }
                         >
                             <span className='on-hover text-white'>Home</span>
+                        </div>
+                        <div
+                        >
+                            <span className='on-hover text-white'><a href='https://term.jchhabra.dev' target='_blank' rel='noreferrer'>Terminal</a></span>
                         </div>
                         <div
                             onClick={() =>
@@ -107,7 +112,7 @@ const Navbar = ({ refs }) => {
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav >
     );
 };
 
