@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = ({ refs }) => {
     const [isNavOpen, setIsNavOpen] = useState(false);
