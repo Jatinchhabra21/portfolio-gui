@@ -5,7 +5,6 @@ import { resume } from '../../utility/resumeBuilder';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faMap,
-  faPhone,
   faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons';
 
