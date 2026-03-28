@@ -2,7 +2,6 @@ const { REACT_APP_RESUME_DRIVE_ID } = process.env;
 export const resume = {
     name: 'Jatin Chhabra',
     email: 'cjatin2822@gmail.com',
-    Phone: '+919027310299',
     address: 'New Delhi, India',
     resumeDriveLinkCode:
         REACT_APP_RESUME_DRIVE_ID,
@@ -57,7 +56,7 @@ export const resume = {
             },
             {
                 name: 'Microsoft Azure',
-                score: 80
+                score: 70
             },
             {
                 name: 'ASP.NET Web API',
@@ -65,7 +64,7 @@ export const resume = {
             },
             {
                 name: 'SQL Server',
-                score: 80,
+                score: 70,
             },
             {
                 name: 'Git',
@@ -125,5 +124,5 @@ export const resume = {
         },
     ],
     //hireMeHeader example: "I'm <span>open</span> to work!", use span for focusing texts
-    hireMeHeader: "I'm <span>open</span> to work!",
+    //hireMeHeader: "I'm <span>open</span> to work!",
 };

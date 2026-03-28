@@ -41,18 +41,6 @@ const ContactMe = ({ reference }) => {
           <div className='flex flex-col items-center text-center'>
             <button className='contact-card'>
               <FontAwesomeIcon
-                icon={faPhone}
-                fontSize={32}
-                className='yellow'
-              />
-            </button>
-
-            <h3 className='contact-card-text mb-4'>Contact Number</h3>
-            <a className='yellowhov' href={`tel:${resume.Phone}`}><p>{resume.Phone}</p></a>
-          </div>
-          <div className='flex flex-col items-center text-center'>
-            <button className='contact-card'>
-              <FontAwesomeIcon
                 icon={faPaperPlane}
                 fontSize={32}
                 className='yellow'
